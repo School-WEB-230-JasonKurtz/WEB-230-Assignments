@@ -1,27 +1,28 @@
+Jason Kurtz
+
+WEB-230 | How PHP Works – Server-Side Scripting – Assignment
+
+
 1. Identify and explain the differences between server side and client side.
 
-	In web development and web based applications Client-side applications are those that run on the end user's machine and recieve/send information out over a network to a server. On the flip side, Server-side applications/scripts run on a server and recieve/send information out over a network to Client-side application(s). 
-
+	In web development and web-based applications Client-side applications/scripts are those that run on the end user's machine and receive/send information out over a network to a server. On the flip side, Server-side applications/scripts run on a server and receive/send information out over a network to Client-side application(s). 
 
 
 2. Identify and explain the differences between scripting and programming languages.
 
-	Scripts are pieces of code that allow task to be automated. They are not compiled into machine code like programs are. Rather, a script is passed through an interpretor in order to run it's code. Traditionally languages such as Javascript, PHP, and Perl have been considered scripting languages. Languages such as C, C++, Java. However, the lines are becoming more and more blurred as scripting languages are sometimes compiled into machine code and programming languages are being used for scripting. One such case is Chrome's V8 Javascript engine that compiles Javascript into machine code. Furthermore, some languages are used for interpreting and compiling such as Python and Ruby.
-
+	Scripts are pieces of code that allow tasks to be automated. Typically they are not compiled into machine code like programs are. Rather, a script is passed through an interpreter to run its code.
 
 
 3. Explain what type of language PHP is.
 
-	PHP is a scripting language that is used Sever-side to serve up content to Client-side applications.
-
+	PHP is a scripting language that is used Sever-side to serve up content to Client-side applications. PHP is interpreted, not compiled, and thus fits the definition of a scripting language.
 
 
 4. Explain the process of a request from the client to the server and back to the client.
 
-	
-
+	The client requests information from the server and the server sends it to the client. However, the server runs code to find, and assemble, the information needed for the file that gets sent to the client. The code that processes the request also must check if the request is a post back to decide on the appropriate information to send the client.
 
 
 5. Explain the differences between the different post types discussed in the video.
 
-	
+	There are two main ways to pass information between a server and a client, GET and POST. GET performs a query through the URL. However, POST can send more information as it sends a query through the message body. POST is also more secure as the query is not cached and can't be bookmarked or saved in browsing history.
