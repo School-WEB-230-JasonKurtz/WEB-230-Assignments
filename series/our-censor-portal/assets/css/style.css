@@ -1,7 +1,7 @@
 header, footer {
 	background-color: black;
 	color: white;
-	padding: 10px;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -21,4 +21,38 @@ textarea {
 	width: 130px;
 	border-radius: 5px;
 	padding: 5px;
+}
+
+nav {
+	display: inline;
+	position: relative;
+	top: -30px;
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul a {
+
+	text-decoration: none;
+	font-weight: 700;
+	padding: 10px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+nav ul li {
+
+	position: relative;
+	float: left;
+}
+
+
+
+.events {
+	position: relative;
+	text-align: center;
 }

@@ -1,4 +1,4 @@
 <?php
-	$newName = 'Insights';
+	$companyName = 'Insights';
 	$oldName = 'Acme';
 ?>
