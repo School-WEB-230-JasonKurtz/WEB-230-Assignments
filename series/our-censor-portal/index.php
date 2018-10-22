@@ -3,10 +3,10 @@
 	$pageName = 'Home';
 
 	require_once 'include/header.inc.php';
-	
+
 	echo '<br>';
 	echo '<br>';
-	echo '<p>Welcome to our home page<p>';
+	echo '<h2 id="homeTitle">Welcome to our home page</h2>';
 	echo '<br>';
 	echo '<br>';
 

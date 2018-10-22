@@ -5,7 +5,7 @@
 	require_once 'include/header.inc.php';
 
 	$find = $oldName;
-	$replace = $newName;
+	$replace = $companyName;
 	$user_input = '';
 	$user_input_new = '';
 
@@ -17,7 +17,7 @@
 	echo '<section>
 			<br>
 			<br>
-			<form action="index.php" method="POST">
+			<form action="internal-communications.php" method="POST">
 				<textarea name="user_input" type="text">'.$user_input_new.'</textarea><br><br>
 				<input class="button" type="submit" value="Find and Replace">
 			</form>

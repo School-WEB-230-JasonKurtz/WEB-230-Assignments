@@ -16,7 +16,6 @@ echo '<!DOCTYPE html>
 	<header>
 	<h1>'.$companyName.' | '.$pageName.'</h1>';
 
-
 	echo menuBuilder($menuItems);
 
 	echo '</header>';
